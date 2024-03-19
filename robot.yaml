@@ -1,8 +1,6 @@
 tasks:
-  Private PyPI Library Usage:
-    robotTaskName: Private PyPI Library Usage
-  Private Repo Or Local Source Library Usage:
-    shell: python task.py
+  Private GitHub Library Usage:
+    shell: python -m robocorp.tasks run task.py
 
 condaConfigFile: conda.yaml
 preRunScripts:
